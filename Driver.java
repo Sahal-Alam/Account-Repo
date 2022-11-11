@@ -6,5 +6,9 @@ public class Driver{
         */
         Account account = new Account();
         account.show_Data();
+        account.setInput(101 ,  10502.5);
+        account.show_Data();
+        account.deposit( 500.5);
+        account.show_Data();
     }
 }

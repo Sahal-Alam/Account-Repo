@@ -23,11 +23,11 @@ class Account{
 
     }
 
-    public void deposit (int a){
-        if(a < 0){
+    public void deposit (double update_value){
+        if(update_value < 0){
              System.out.println("Negative value shouldn't deposit");  
         }
         else
-        account_balance = account_balance + a;
+        account_balance = account_balance + update_value;
     }
 }
